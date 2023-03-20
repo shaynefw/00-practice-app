@@ -5,7 +5,7 @@ function App() {
   // Here we declare a state boolean variable "loggedIn" and a function to update it.
   const [loggedIn, setLoggedIn] = useState(false);
 
-  // We return the Welcome component and pass loggedIn and setLoggedIn as props.
+  // We return the Welcome component and pass loggedIn and setLoggedIn as props. okay.
   return <Welcome loggedIn={loggedIn} setLoggedIn={setLoggedIn} />;
 }
 
